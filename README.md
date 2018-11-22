@@ -11,8 +11,15 @@ Build server-side node app that logs weather data for given location.
 &nbsp;&nbsp; 3. Learn how to fetch data with node;
 
 ## See live v.1.0:
-&nbsp;&nbsp; 1. Go to: \
-&nbsp;&nbsp; 2. (if Heroku installed locally) type `heroku run bash` and once in the console type node app.js <city name>;
+&nbsp;&nbsp; 1. Cone the repo: <https://github.com/MaciejReimann/weatherCLI.git>;\
+&nbsp;&nbsp; 2. Go to: https://openweathermap.org/appid and get an API key;\
+&nbsp;&nbsp; 3. In the project's root directory create the `api.json` file and save your api key there: 
+```javascript
+{
+  "key": "YOUR API KEY"
+}
+```
+&nbsp;&nbsp; 4. Run `node app.js <city name>` from the console;
 
 
 ## TODOs:
